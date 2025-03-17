@@ -192,6 +192,19 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - news/announcement_2.md
+  - news/announcement_3.md
+  - _pages/blog.md
+  - _pages/publications.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/cv.md
+
+
+  - 
 keep_files:
   - CNAME
   - .nojekyll
@@ -386,7 +399,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
