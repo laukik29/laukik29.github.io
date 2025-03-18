@@ -411,6 +411,11 @@ ninja.data = [{
           description: "PPO-based DRL control for hexapods and quadrupeds",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-spiderbot",
+          title: 'SpiderBot',
+          description: "Custom designed hexapod",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
