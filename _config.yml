@@ -200,7 +200,7 @@ exclude:
   - _pages/news.md
   - _pages/profiles.md
   - _pages/teaching.md
-  # - _pages/cv.md
+  - _pages/cv.md
   - _pages/repositories.md
 
 

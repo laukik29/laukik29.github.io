@@ -2,15 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Intern [MARMot Lab, NUS ME](https://www.marmotlab.org/index.html) - CV 
+subtitle: Research Intern at the MARMot Lab, NUS  
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Clementi, Singapore 120705</p>
-    <p>Navi Mumbai, Maharashtra, India </p>
+    <p>With my two buddies from our family</p>
+    <p>still searching for good names for them...🤔</p>
     
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -19,14 +20,14 @@ social: false # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit:  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-projects: true
+
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -44,3 +45,8 @@ Hi, I am a final year undergraduate student at [BITS, Pilani](https://www.bits-p
  I have also interned at [Pyrotech Electronics Pvt. Ltd.](https://pyrotechindia.com/) during summer in my sophomore year where i worked on the development of an E-Medical Kiosk for improving health dispensing to masses especially after the COVID19 pandemic. 
 
 My passion is applying theoretical advancements in the field of Learning to meaningful and impactful tasks. I find robotics as a direct way to do so and the visualization of the work sparks even more motivation and amazement for me. When I am not indulged in research, I love to play football, practice martial arts, and enjoy watching all sport games. 
+
+
+
+
+
