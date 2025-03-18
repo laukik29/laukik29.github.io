@@ -192,8 +192,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - news/announcement_2.md
-  - news/announcement_3.md
+  - _news/announcement_2.md
+  - _news/announcement_3.md
   - _pages/blog.md
   - _pages/publications.md
   - _pages/books.md
