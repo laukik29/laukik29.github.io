@@ -192,8 +192,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _news/announcement_2.md
-  - _news/announcement_3.md
+  - _news/announcement_long_with_details.md
   - _pages/blog.md
   - _pages/publications.md
   - _pages/books.md
@@ -201,7 +200,7 @@ exclude:
   - _pages/news.md
   - _pages/profiles.md
   - _pages/teaching.md
-  - _pages/cv.md
+  # - _pages/cv.md
   - _pages/repositories.md
 
 

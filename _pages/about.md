@@ -1,17 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Intern [MARMot Lab, NUS ME](https://www.marmotlab.org/index.html) - CV 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Currently, Clementi, Singapore 120705</p>
-    <p>Permanent, Ulwe, Navi Mumbai, India </p>
-    # <p>Your City, State 12345</p>
+    <p>Clementi, Singapore 120705</p>
+    <p>Navi Mumbai, Maharashtra, India </p>
+    
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
