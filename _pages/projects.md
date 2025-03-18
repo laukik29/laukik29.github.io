@@ -2,11 +2,12 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some interesting projects I worked on..
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+
 ---
 
 <!-- pages/projects.md -->
@@ -19,6 +20,9 @@ horizontal: false
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
+
+
+
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
@@ -62,4 +66,17 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
+</div>
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+    
+  <!-- Left Video -->
+  <div style="max-width: 45%;">
+        {% include video.liquid path="assets/video/go2_love.mp4" loop=true muted=true autoplay=true width="100%" %}
+    </div>
+
+  <!-- Right Video -->
+  <div style="max-width: 45%;">
+        {% include video.liquid path="assets/video/hebi_demo.mp4" loop=true muted=true autoplay=true width="100%" %}
+    </div>
+
 </div>

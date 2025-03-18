@@ -1,48 +1,62 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: End-to-End RL policy for Stair Locomotion
+description: PPO-based DRL control for hexapods and quadrupeds
+img: assets/img/yuna.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project explores **end-to-end reinforcement learning** for **stair locomotion** using **hexapod (Yuna) and quadruped robots**. We train a parallel **Proximal Policy Optimization (PPO) based DRL control policy** to achieve robust stair climbing capabilities.
+I used isaac_gym implementation based on isaacsim for parallel simulation. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
+    --- -->
+
+<div class="row">
+    <!-- Left Image -->
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/yuna2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+<!-- Middle Video -->
+<div class="col-sm mt-3 mt-md-0">
+    <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%; max-height: 100%;">
+        <source src="{{ 'assets/video/yuna_flat.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+<!-- Right Image -->
+<div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/yuna_sim.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    On the left, yuna - a hexapod from HEBI robotics. Middle, Locomotion policy trained on flat ground. Right, Locomotion policy being trained on stairs.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
+            <source src="{{ 'assets/video/yuna_stairs2.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+    Trained RL hexapod policy
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
