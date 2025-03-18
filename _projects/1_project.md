@@ -56,21 +56,24 @@ I used isaac_gym implementation based on isaacsim for parallel simulation.
 </div>
 <div class="caption">
     Trained RL hexapod policy
+</div>
 
+Key Observation : Hexapods (Yuna) being inherently stable, need more penalties than positive rewards for tasks such as climbing stairs as opposed to in quadrupeds.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
+            <source src="{{ 'assets/video/yuna_stairs2.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
 <div class="caption">
+    Training policy walking on rough terrain, sloped terrain, stairs up/down, and discrete obstacles
+</div>
+
+<!-- </div>
+<!-- <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
@@ -90,6 +93,6 @@ Here's the code for the last row of images above:
     {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<!-- ``` --> 
 
-{% endraw %}
+<!-- {% endraw %} -->
