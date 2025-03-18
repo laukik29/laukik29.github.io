@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -410,8 +403,8 @@ ninja.data = [{
           section: "News",},{id: "news-selected-in-the-non-grdaduating-exchange-research-program-at-the-national-university-of-singapore",
           title: 'Selected in the Non-Grdaduating, exchange research program at the National University of Singapore....',
           description: "",
-          section: "News",},{id: "news-started-workign-under-prof-guillaume-a-sartoretti-as-a-on-site-research-intern-at-marmot-lab-nus-me",
-          title: 'Started workign under Prof. Guillaume A SARTORETTI as a on-site research intern at...',
+          section: "News",},{id: "news-started-working-under-prof-guillaume-a-sartoretti-as-a-on-site-research-intern-at-marmot-lab-nus-me",
+          title: 'Started working under Prof. Guillaume A SARTORETTI as a on-site research intern at...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
