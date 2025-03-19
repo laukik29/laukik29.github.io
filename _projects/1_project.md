@@ -5,7 +5,7 @@ description: PPO-based DRL control for hexapods and quadrupeds
 img: assets/img/yuna.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project explores **end-to-end reinforcement learning** for **stair locomotion** using **hexapod (Yuna) and quadruped robots**. We train a parallel **Proximal Policy Optimization (PPO) based DRL control policy** to achieve robust stair climbing capabilities.
@@ -49,7 +49,7 @@ I used isaac_gym implementation based on isaacsim for parallel simulation.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
-            <source src="{{ 'assets/video/yuna_stairs2.mp4' | relative_url }}" type="video/mp4">
+            <source src="{{ 'assets/video/yuna_stair2.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -63,7 +63,7 @@ Key Observation : Hexapods (Yuna) being inherently stable, need more penalties t
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
-            <source src="{{ 'assets/video/yuna_stairs2.mp4' | relative_url }}" type="video/mp4">
+            <source src="{{ 'assets/video/yuna_stair.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>

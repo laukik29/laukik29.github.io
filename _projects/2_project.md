@@ -1,98 +1,96 @@
 ---
 layout: page
-title: SpiderBot
-description: Custom designed hexapod
-img: assets/img/spiderbot.jpg
+title: "SpiderBot"
+description: "A custom-designed symmetrical hexapod robot with 3DoF per leg."
+img: assets/img/spiderbot2.JPG
 importance: 1
-category: work
-related_publications: true
+category: robotics
+related_publications: false
 ---
 
-This project explores **end-to-end reinforcement learning** for **stair locomotion** using **hexapod (Yuna) and quadruped robots**. We train a parallel **Proximal Policy Optimization (PPO) based DRL control policy** to achieve robust stair climbing capabilities.
-I used isaac_gym implementation based on isaacsim for parallel simulation. 
 
-
-<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
+## Overview
 
 <div class="row">
-    <!-- Left Image -->
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/yuna2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-
-<!-- Middle Video -->
-<div class="col-sm mt-3 mt-md-0">
-    <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%; max-height: 100%;">
-        <source src="{{ 'assets/video/yuna_flat.mp4' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
-
-
-<!-- Right Image -->
-<div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/yuna_sim.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 50%; margin: auto;">
+        {% include figure.liquid loading="eager" path="assets/img/spiderbot.jpg" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%; max-width: 400px;" %}
     </div>
 </div>
 
-<div class="caption">
-    On the left, yuna - a hexapod from HEBI robotics. Middle, Locomotion policy trained on flat ground. Right, Locomotion policy being trained on stairs.
-</div>
 
+**SpiderBot** is a **custom-designed symmetrical hexapod robot** developed as part of the **Electronics and Robotics Club, BITS Goa**. Each of its six legs has **3 degrees of freedom (3DoF)**, allowing for precise and adaptive locomotion. The robot is designed to navigate various terrains using **bio-inspired control mechanisms**. We deployed a **central pattern generator (CPG) controller to achieve gaits for locomotion**.
+
+
+
+## **Key Features**
+- **Custom-designed & manufactured** from ground up symmetrical hexapod with **3DoF per leg**.
+- Developed and tested multiple **gait patterns**, including:
+  - **3-3 tripod gait** (faster, stable)
+  - **4-2 gait** (adaptive to rough terrains)
+- Implemented a **bio-inspired Central Pattern Generator (CPG) controller** for **smooth and adaptive locomotion**.
+- Conducted extensive testing on **trotting, on-spot twisting, and terrain adaptation** in real-world environments.
+- **Secured 2nd position** at the **Open Design Contest**, conducted by the Department of Electrical and Electronics Engineering. <a href="assets/pdf/Design Contest.pdf" target="_blank">Certificate</a>
+
+- **Achieved external control capability**, enabling remote navigation & motion demonstrations.
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
-            <source src="{{ 'assets/video/yuna_stairs2.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 30%; margin: auto;">
+        {% include figure.liquid loading="eager" path="assets/img/spiderbot3.JPG" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%; max-width: 400px;" %}
     </div>
 </div>
-<div class="caption">
-    Trained RL hexapod policy
-</div>
+---
 
-Key Observation : Hexapods (Yuna) being inherently stable, need more penalties than positive rewards for tasks such as climbing stairs as opposed to in quadrupeds.
+## Walking Demonstrations
 
+<!-- <div class="row justify-content-sm-center">
+    <!-- Video 1 -->
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/spider_walk2.MOV" loop=true muted=true autoplay=true width="100%" %}
+        <div class="caption">SpiderBot demonstrating a stable tripod gait for efficient movement.</div>
+    </div>
+    
+<!-- Video 2 -->
+<div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/spider_walk3.MOV" loop=true muted=true autoplay=true width="100%" %}
+        <div class="caption">Testing adaptive terrain locomotion.</div>
+    </div>
+    
+<!-- Video 3 -->
+<div class="col-sm-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/spider_rot.MOV" loop=true muted=true autoplay=true width="100%" %}
+        <div class="caption">On-spot twisting motion for confined space maneuvering.</div>
+    </div>
+</div> -->
+
+
+---
+
+## SpiderBot Prototype
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
-            <source src="{{ 'assets/video/yuna_stairs2.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <div class="col-sm mt-3 mt-md-0" style="max-width: 40%; margin: auto;">
+        {% include figure.liquid loading="eager" path="assets/img/spiderbot2.JPG" title="example image" class="img-fluid rounded z-depth-1" style="width: 100%; max-width: 400px;" %}
     </div>
 </div>
 <div class="caption">
-    Training policy walking on rough terrain, sloped terrain, stairs up/down, and discrete obstacles
+    SpiderBot hardware ahead of QUARK 2022, being on of the major project displays.
 </div>
 
-<!-- </div>
-<!-- <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Development & Team Leadership
+- **Led a team of 25 students** over two years to design, build, and test SpiderBot.
+- Managed **electronics, mechanical, and software development** teams.
+- Designed **custom made pcb** for power distribution and **raspi-arduino interface** via rosserial.
+- Achieved the **first successful hardware implementation** of the hexapod.
+- Developed a **CPG-based controller**, enabling smooth gait transitions.
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<!-- ``` --> 
+---
+## Project Repository
+[**SpiderBot GitHub Repository**](https://github.com/ERC-BPGC/SpiderBot/)
 
-<!-- {% endraw %} -->
+## [Additional Notes](assets/pdf/spiderbot.pdf)
+
+
+
+
+
