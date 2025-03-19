@@ -413,7 +413,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-spiderbot",
           title: 'SpiderBot',
-          description: "Custom designed hexapod",
+          description: "A custom-designed symmetrical hexapod robot with 3DoF per leg.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{
