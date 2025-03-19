@@ -407,7 +407,7 @@ ninja.data = [{
           title: 'Started working under Prof. Guillaume A SARTORETTI as a on-site research intern at...',
           description: "",
           section: "News",},{id: "projects-end-to-end-rl-policy-for-stair-locomotion",
-          title: 'End-to-End RL policy for Stair Locomotion',
+          title: 'End-to-End RL Policy for Stair Locomotion',
           description: "PPO-based DRL control for hexapods and quadrupeds",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
@@ -416,6 +416,11 @@ ninja.data = [{
           description: "A custom-designed symmetrical hexapod robot with 3DoF per leg.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-robot-manipulation",
+          title: 'Robot Manipulation',
+          description: "Hexapod Manipulation for Industrial Deployment",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
