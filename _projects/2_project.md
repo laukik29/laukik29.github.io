@@ -2,9 +2,9 @@
 layout: page
 title: "SpiderBot"
 description: "A custom-designed symmetrical hexapod robot with 3DoF per leg."
-img: assets/img/spiderbot2.JPG
+img: assets/img/spiderbot.jpg
 importance: 1
-category: robotics
+category: work
 related_publications: false
 ---
 
@@ -29,7 +29,8 @@ related_publications: false
   - **4-2 gait** (adaptive to rough terrains)
 - Implemented a **bio-inspired Central Pattern Generator (CPG) controller** for **smooth and adaptive locomotion**.
 - Conducted extensive testing on **trotting, on-spot twisting, and terrain adaptation** in real-world environments.
-- **Secured 2nd position** at the **Open Design Contest**, conducted by the Department of Electrical and Electronics Engineering. <a href="assets/pdf/Design Contest.pdf" target="_blank">Certificate</a>
+- **Secured 2nd position** at the **Open Design Contest**, conducted by the Department of Electrical and Electronics Engineering. <a href="assets/pdf/Design_Contest.pdf" target="_blank">Certificate</a>
+
 
 - **Achieved external control capability**, enabling remote navigation & motion demonstrations.
 <div class="row">
@@ -41,25 +42,30 @@ related_publications: false
 
 ## Walking Demonstrations
 
-<!-- <div class="row justify-content-sm-center">
-    <!-- Video 1 -->
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/spider_walk2.MOV" loop=true muted=true autoplay=true width="100%" %}
-        <div class="caption">SpiderBot demonstrating a stable tripod gait for efficient movement.</div>
-    </div>
-    
+<div class="container">
+    <div class="row justify-content-center"> 
+
+<!-- Video 1 -->
+<div class="col-md-4 col-sm-12">
+            {% include video.liquid path="assets/video/spider_walk.mp4" loop=true muted=true autoplay=true width="100%" %}
+            <div class="caption text-center">Initial testing</div>
+        </div>
+
 <!-- Video 2 -->
-<div class="col-sm-4 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/spider_walk3.MOV" loop=true muted=true autoplay=true width="100%" %}
-        <div class="caption">Testing adaptive terrain locomotion.</div>
-    </div>
-    
+<div class="col-md-4 col-sm-12">
+            {% include video.liquid path="assets/video/spider_walk2.mp4" loop=true muted=true autoplay=true width="100%" %}
+            <div class="caption text-center">Multiple gaits</div>
+        </div>
+
 <!-- Video 3 -->
-<div class="col-sm-4 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/spider_rot.MOV" loop=true muted=true autoplay=true width="100%" %}
-        <div class="caption">On-spot twisting motion for confined space maneuvering.</div>
-    </div>
-</div> -->
+<div class="col-md-4 col-sm-12">
+            {% include video.liquid path="assets/video/spider_rot.mp4" loop=true muted=true autoplay=true width="100%" %}
+            <div class="caption text-center">On-spot twisting</div>
+        </div>
+
+</div>
+</div>
+
 
 
 ---
@@ -71,7 +77,7 @@ related_publications: false
     </div>
 </div>
 <div class="caption">
-    SpiderBot hardware ahead of QUARK 2022, being on of the major project displays.
+    SpiderBot the headliner of QUARK 2022, technical fest project display.
 </div>
 
 ---
@@ -88,7 +94,9 @@ related_publications: false
 ## Project Repository
 [**SpiderBot GitHub Repository**](https://github.com/ERC-BPGC/SpiderBot/)
 
-## [Additional Notes](assets/pdf/spiderbot.pdf)
+## Additional Notes
+[Slides](assets/pdf/spiderbot.pdf)
+
 
 
 

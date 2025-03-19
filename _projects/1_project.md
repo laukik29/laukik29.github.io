@@ -1,6 +1,6 @@
 ---
 layout: page
-title: End-to-End RL policy for Stair Locomotion
+title: End-to-End RL Policy for Stair Locomotion
 description: PPO-based DRL control for hexapods and quadrupeds
 img: assets/img/yuna.jpg
 importance: 1
