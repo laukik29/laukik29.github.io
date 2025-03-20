@@ -421,6 +421,26 @@ ninja.data = [{
           description: "Hexapod Manipulation for Industrial Deployment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-adaptive-terrain-curriculum-for-robust-robust-locomotion-policies",
+          title: 'Adaptive-Terrain Curriculum For Robust robust Locomotion Policies',
+          description: "Developing an adaptive-terrain curriculum strategy using terrain generation via diffusion (Under Development)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-yoga-pose-estimation-and-tracking",
+          title: 'Yoga Pose Estimation and Tracking',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-machine-learning-in-autoimmune-diseases",
+          title: 'Machine Learning in Autoimmune Diseases',
+          description: "Machine Learning approach for the classification and genetic correlation analysis of autoimmune diseases",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-general-imitation-learning-framework",
+          title: 'General Imitation Learning Framework',
+          description: "Under Development",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
             },},{
         id: 'social-email',
         title: 'email',
