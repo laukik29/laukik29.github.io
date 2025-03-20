@@ -3,7 +3,7 @@ layout: page
 title: "Machine Learning in Autoimmune Diseases"
 description: "Machine Learning approach for the classification and genetic correlation analysis of autoimmune diseases"
 img: assets/img/autoimmune.jpg
-importance: 1
+importance: 5
 category: work
 related_publications: false
 ---
@@ -100,7 +100,7 @@ This project explores **machine learning applications in autoimmune disease clas
 
 GitHub Repository: [PIBD](https://github.com/laukik29/Machine-Learning-/tree/main/ML\%20in\%20Autoimmune\%20Diseases)  
 GitHub Repository: [Narcolepsy](https://github.com/laukik29/Machine-Learning-Based-Identification-of-Narcolepsy-Predictive-Genes)  
-Project Report: [PDF](assets/pdf/REPORT-Autoimmune Diseases.pdf)  
+<a href="laukik29.github.io/assets/pdf/REPORT-Autoimmune Diseases.pdf" target="_blank">Project Report</a>
   
 
 

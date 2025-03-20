@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "SpiderBot"
-description: "A custom-designed symmetrical hexapod robot with 3DoF per leg."
+description: "Design, Development and Control of a custom-designed symmetrical hexapod robot with 3DoF per leg."
 img: assets/img/spiderbot.jpg
-importance: 1
+importance: 3
 category: work
 related_publications: false
 ---
@@ -23,13 +23,13 @@ related_publications: false
 
 
 ## **Key Features**
-- **Custom-designed & manufactured** from ground up symmetrical hexapod with **3DoF per leg**.
+- **Custom-designed & manufactured** from ground up leading symmetrical hexapod with **3DoF per leg**.
 - Developed and tested multiple **gait patterns**, including:
   - **3-3 tripod gait** (faster, stable)
   - **4-2 gait** (adaptive to rough terrains)
 - Implemented a **bio-inspired Central Pattern Generator (CPG) controller** for **smooth and adaptive locomotion**.
 - Conducted extensive testing on **trotting, on-spot twisting, and terrain adaptation** in real-world environments.
-- **Secured 2nd position** at the **Open Design Contest**, conducted by the Department of Electrical and Electronics Engineering. <a href="assets/pdf/Design_Contest.pdf" target="_blank">Certificate</a>
+- **Secured 2nd position** at the **Open Design Contest**, conducted by the Department of Electrical and Electronics Engineering. <a href="laukik29.github.io/assets/pdf/spiderbot.pdf" target="_blank">Certificate</a>
 
 
 - **Achieved external control capability**, enabling remote navigation & motion demonstrations.
@@ -83,7 +83,7 @@ related_publications: false
 ---
 
 ## Development & Team Leadership
-- **Led a team of 25 students** over two years to design, build, and test SpiderBot.
+- **Led a team of 25 students** over all the development teams, design, electronics and control over two years to design, build, and test SpiderBot.
 - Managed **electronics, mechanical, and software development** teams.
 - Designed **custom made pcb** for power distribution and **raspi-arduino interface** via rosserial.
 - Achieved the **first successful hardware implementation** of the hexapod.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "Yoga Pose Estimation and Tracking"
-description: ""
+description: "Human pose keypoint detection and estimation for yoga"
 img: assets/img/yoga.png
-importance: 1
+importance: 4
 category: work
 related_publications: false
 ---
