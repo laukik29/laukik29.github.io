@@ -8,5 +8,5 @@ category: work
 related_publications: false
 ---
 
-Imitation Learning (IL) is a data-driven paradigm where an agent learns an optimal policy by approximating expert demonstrations, leveraging supervised learning techniques like Behavioral Cloning (BC) . I am working towards solving the issues and gaps caused my current IL paradigms. (Under Development)
+Imitation Learning (IL) is a data-driven paradigm where an agent learns an optimal policy by approximating expert demonstrations, leveraging supervised learning techniques like Behavioral Cloning (BC) . I am working towards solving the issues and gaps in current IL paradigms with animal inspired motions. (Under Development)
 
