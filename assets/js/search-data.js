@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Some interesting projects I worked on..",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -421,8 +421,8 @@ ninja.data = [{
           description: "Hexapod Manipulation for Industrial Deployment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-adaptive-terrain-curriculum-for-robust-robust-locomotion-policies",
-          title: 'Adaptive-Terrain Curriculum For Robust robust Locomotion Policies',
+            },},{id: "projects-adaptive-terrain-curriculum-for-robust-locomotion-policies",
+          title: 'Adaptive-Terrain Curriculum For Robust Locomotion Policies',
           description: "Developing an adaptive-terrain curriculum strategy using terrain generation via diffusion (Under Development)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
@@ -436,9 +436,9 @@ ninja.data = [{
           description: "Machine Learning approach for the classification and genetic correlation analysis of autoimmune diseases",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-general-imitation-learning-framework",
-          title: 'General Imitation Learning Framework',
-          description: "General imitation learning framework which can be extended to different fields in robotics with demonstration in legged robots.",
+            },},{id: "projects-apex-action-priors-enable-efficient-exploration-for-skill-imitation-on-articulated-robots",
+          title: 'APEX: Action Priors Enable Efficient Exploration for Skill Imitation on Articulated Robots',
+          description: "APEX (Action Priors enable Efficient Exploration): a simple yet versatile imitation learning framework that integrates demonstrations directly into reinforcement learning (RL), maintaining high exploration while grounding behavior with expert-informed priors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{
