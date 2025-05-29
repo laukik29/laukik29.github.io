@@ -416,9 +416,9 @@ ninja.data = [{
           description: "Design, Development and Control of a custom-designed symmetrical hexapod robot with 3DoF per leg.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-robot-manipulation",
-          title: 'Robot Manipulation',
-          description: "Hexapod Manipulation for Industrial Deployment",
+            },},{id: "projects-hexapod-manipulation",
+          title: 'Hexapod Manipulation',
+          description: "Industrial deployment of Hexapods at Container Ports",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-adaptive-terrain-curriculum-for-robust-locomotion-policies",
