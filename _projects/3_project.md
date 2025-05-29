@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Robot Manipulation"
-description: "Hexapod Manipulation for Industrial Deployment"
+title: "Hexapod Manipulation"
+description: "Industrial deployment of Hexapods at Container Ports"
 img: assets/img/psa.jpg
 importance: 2
 category: work
