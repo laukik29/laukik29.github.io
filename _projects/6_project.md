@@ -13,7 +13,7 @@ related_publications: false
 ## Overview
 
 
-This project explores **machine learning applications in autoimmune disease classification and genetic analysis**, focusing on **Pediatric Inflammatory Bowel Disease (PIBD),Rheumatoid arthritis and Narcolepsy**. By integrating **supervised learning, genetic analysis, and feature selection techniques**, the study enhances disease prediction and biomarker identification.
+This project explores **machine learning applications in autoimmune disease classification and genetic analysis**, focusing on **Pediatric Inflammatory Bowel Disease (PIBD),Rheumatoid arthritis and Narcolepsy**. By integrating **supervised learning, genetic analysis, and feature selection techniques**, the study enhances disease prediction and biomarker identification. Work done under the guidance and support of [Dr. Meenal Kowshik](https://www.bits-pilani.ac.in/goa/meenal-kowshik/), Professor Department of Biological Sciences at BITS Pilani, K K Birla Goa Campus
 
 ---
 

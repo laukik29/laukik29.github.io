@@ -11,9 +11,10 @@ related_publications: false
 
 ## Overview
 
-**Industrial Collaboration with the Port of Singapore Authority (PSA)**
+**Industrial Deployment of Hexapods in collaboration with the Port of Singapore Authority (PSA)**
+**Completed May,2025**
 
-This is focused on the development and deployment of a legged manipulation framework on a hexapod robot for efficient twist-lock operations in container handling. Twist-locks are omnipresent in container management, wwhether on ports or ships. The project aims to reduce the human effort and risk involved in this highly abundant yet perilious job. The project explores real-world applications of legged robotics in industrial automation. I am working as the part of the horizontal placement team, on hexapod locomotion and manipulkation. 
+This project is focused on the development and deployment of a legged manipulation framework on a hexapod robot for efficient twist-lock operations in container handling. Twist-locks are omnipresent in container management, wwhether on ports or ships. The project aims to reduce the human effort and risk involved in this highly abundant yet perilious job. The project explores real-world applications of legged robotics in industrial automation. I worked as the part of the horizontal placement team, on hexapod locomotion and manipulation with successful completion of the final project demonstration.
 
 <!-- <div class="text-center">
     <div class="col-sm-6 mx-auto mt-3 mt-md-0">
@@ -44,6 +45,19 @@ This is focused on the development and deployment of a legged manipulation frame
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
+            <source src="{{ 'assets/video/PSA Onsite' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Deployment of Hexapod for horizontal placement performed on top of containers at the PSA
+</div>
+
 
 
 

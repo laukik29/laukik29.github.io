@@ -14,7 +14,7 @@ related_publications: false
 
 
 
-This project aimed to develop a **real-time yoga pose detection and correction system** using **computer vision (CV) techniques and statistical modeling**. The system leveraged **MediaPipe and OpenCV** to capture and process image data for accurate **pose estimation, joint angle computation, and feedback generation**. Worked with [Prof. Kunal Korgaonkar](https://www.bits-pilani.ac.in/goa/kunal-kishore-korgaonkar/) in the CSIS Robotics Lab, BITS Goa. 
+This project aimed to develop a **real-time yoga pose detection and correction system** using **computer vision (CV) techniques and statistical modeling**. The system leveraged **MediaPipe and OpenCV** to capture and process image data for accurate **pose estimation, joint angle computation, and feedback generation**. Worked with [Prof. Kunal Korgaonkar](https://www.bits-pilani.ac.in/goa/kunal-kishore-korgaonkar/) Assistant Professor at the CSIS Dept. of BITS Pilani, K K Birla Goa Campus in the CSIS Robotics Lab.
 The approach involved **computing joint angles** from processed images, comparing them with predefined statistical ranges using **Z-score analysis**, and suggesting corrections to improve pose accuracy.
 
 <div class="row">
