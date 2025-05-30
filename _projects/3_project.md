@@ -49,7 +49,7 @@ This project is focused on the development and deployment of a legged manipulati
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video autoplay loop muted playsinline class="img-fluid rounded z-depth-1" style="width: 100%;">
-            <source src="{{ 'assets/video/PSA Onsite' | relative_url }}" type="video/mp4">
+            <source src="{{ 'assets/video/PSA Onsite.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
