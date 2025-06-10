@@ -48,7 +48,7 @@ I have also worked with [Prof. Meenal Kowshik](https://www.bits-pilani.ac.in/goa
 
 I have also interned at [Pyrotech Electronics Pvt. Ltd.](https://pyrotechindia.com/) during summer in my sophomore year where i worked on the development of an E-Medical Kiosk for improving health dispensing to masses especially after the COVID19 pandemic. 
 
-My passion is applying theoretical advancements in the field of Learning to meaningful and impactful tasks. I find robotics as a direct way to do so and the visualization of the work sparks even more motivation and amazement for me. When I am not indulged in research, I love to play football, practice martial arts, and enjoy watching all sport games. 
+My passion is applying theoretical advancements in the field of Learning to meaningful and impactful tasks. I find robotics as a direct way to do so and the visualization of the work sparks even more motivation and amazement for me. When I am not indulged in research, I love to play football, practice martial arts, and enjoy watching live sports. 
 
 
 
