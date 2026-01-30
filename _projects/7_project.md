@@ -3,7 +3,7 @@ layout: page
 title: "APEX: Action Priors Enable Efficient Exploration for Robust Motion Tracking on Legged Robots"
 description: "APEX (Action Priors enable Efficient Exploration): a simple yet versatile imitation learning framework that integrates demonstrations directly into reinforcement learning (RL), maintaining high exploration while grounding behavior with expert-informed priors."
 importance: 1
-img : 
+img : assets/img/apex_cover.jpg
 category: work
 related_publications: false
 ---

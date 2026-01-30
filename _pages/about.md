@@ -51,7 +51,8 @@ I completed my undergraduate at [BITS Pilani (Goa)](https://www.bits-pilani.ac.i
 
 * **Global Scale ML & MLOps:** At ZS, I developed and deployed **XGBoost and KNN-based predictive models** for **Pfizer's worldwide supply chain**. These models predict critical SCM parameters—such as lead-time and shelf-life—directly impacting global inventory optimization. To support these models, I engineered a modular pipeline using **FastAPI and Kubernetes** that reduced deployment latency by **98% (4 hours to 5 minutes)**, integrated with **Snowflake** for TB-scale data processing and 3-tier drift detection.
 * **Legged Locomotion (Remote Collaboration):** Following my on-site research at [MARMot Lab (NUS)](https://www.marmotlab.org/index.html), I continue to contribute to imitation and curriculum learning frameworks. I co-developed **APEX**, a framework for robust motion tracking on legged robots, featured at the **21st Dynamic Walking Conference (Germany)**.
-* **Past Collaborations:** * **Medical AI:** Worked with [Prof. Meenal Kowshik](https://www.bits-pilani.ac.in/goa/meenal-kowshik/) on predicting Autoimmune diseases via genetic correlation.
+* **Past Collaborations:** 
+    * **Medical AI:** Worked with [Prof. Meenal Kowshik](https://www.bits-pilani.ac.in/goa/meenal-kowshik/) on predicting Autoimmune diseases via genetic correlation.
     * **Computer Vision:** Developed human pose detection/correction systems with [Prof. Kunal Korgaonkar](https://www.bits-pilani.ac.in/goa/kunal-kishore-korgaonkar/) at the CSIS Robotics Lab.
     * **Industrial IoT:** Interned at [Pyrotech Electronics](https://pyrotechindia.com/) to build an E-Medical Kiosk for mass healthcare dispensing.
 
