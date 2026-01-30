@@ -413,8 +413,11 @@ ninja.data = [{
           section: "News",},{id: "news-started-working-under-prof-guillaume-a-sartoretti-as-a-on-site-research-intern-at-marmot-lab-nus-me",
           title: 'Started working under Prof. Guillaume A SARTORETTI as a on-site research intern at...',
           description: "",
-          section: "News",},{id: "news-i-am-pleased-to-announce-that-my-work-imitation-beyond-data-scaffolding-reinforcement-learning-with-action-priors-from-nature-has-been-selected-for-presentation-at-the-21st-dynamic-walking-conference-to-be-held-in-aachen-germany-in-july-2025",
-          title: 'I am pleased to announce that my work, “Imitation Beyond Data: Scaffolding Reinforcement...',
+          section: "News",},{id: "news-i-have-joined-zs-associates-as-an-advanced-data-science-associate-i-am-currently-developing-and-productionalizing-mission-critical-ml-models-for-pfizer-s-worldwide-supply-chain-my-work-involves-architecting-high-scale-predictive-systems-xgboost-knn-and-mlops-pipelines-using-fastapi-and-kubernetes-to-optimize-global-inventory-distribution",
+          title: 'I have joined ZS Associates as an Advanced Data Science Associate. I am...',
+          description: "",
+          section: "News",},{id: "news-i-am-pleased-to-announce-i-presented-our-work-imitation-beyond-data-scaffolding-reinforcement-learning-with-action-priors-from-nature-has-been-selected-for-presentation-at-the-21st-dynamic-walking-conference-in-aachen-germany-in-july-2025",
+          title: 'I am pleased to announce I presented our work, “Imitation Beyond Data: Scaffolding...',
           description: "",
           section: "News",},{id: "projects-end-to-end-rl-policy-for-stair-locomotion",
           title: 'End-to-End RL Policy for Stair Locomotion',
@@ -446,8 +449,8 @@ ninja.data = [{
           description: "Machine Learning approach for the classification and genetic correlation analysis of autoimmune diseases",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-apex-action-priors-enable-efficient-exploration-for-skill-imitation-on-articulated-robots",
-          title: 'APEX: Action Priors Enable Efficient Exploration for Skill Imitation on Articulated Robots',
+            },},{id: "projects-apex-action-priors-enable-efficient-exploration-for-robust-motion-tracking-on-legged-robots",
+          title: 'APEX: Action Priors Enable Efficient Exploration for Robust Motion Tracking on Legged Robots...',
           description: "APEX (Action Priors enable Efficient Exploration): a simple yet versatile imitation learning framework that integrates demonstrations directly into reinforcement learning (RL), maintaining high exploration while grounding behavior with expert-informed priors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
