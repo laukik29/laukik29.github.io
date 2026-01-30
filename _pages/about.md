@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Intern at the MARMot Lab, NUS  
+subtitle: AI/ML Engineer | Advanced Data Science Associate @ ZS | BITS Pilani Alum | Visiting Robotics Researcher @NUS | Building Global Models and MLOps Pipelines for Pfizer | 
 
 
 profile:
